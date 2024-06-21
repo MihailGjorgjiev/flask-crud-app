@@ -17,8 +17,8 @@ function Check-PodStatus {
 
 
 # Starting Minikube
-Write-Host "Starting Minikube..."
-minikube start
+# Write-Host "Starting Minikube..."
+# minikube start
 
 # Applying Kubernetes configuration
 Write-Host "Applying Kubernetes configuration..."

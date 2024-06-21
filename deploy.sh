@@ -13,8 +13,8 @@ check_pod_status() {
     fi
 }
 
-echo "Starting Minikube..."
-minikube start
+# echo "Starting Minikube..."
+# minikube start
 
 echo "Applying Kubernetes configuration..."
 kubectl apply -f ./kubernetes/namespace.yaml
