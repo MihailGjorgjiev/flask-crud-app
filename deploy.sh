@@ -31,4 +31,4 @@ done
 
 echo "Deployment complete."
 
-# kubectl port-forward service/flasespace-service 8080:80 -n flask-app-ns
+kubectl port-forward service/flask-service 8080:80 -n flask-app-ns

@@ -14,20 +14,13 @@ Before running this project, ensure you have the following tools installed:
 minikube start
 ```
 
-2. Deploy the project using either shell or PowerShell:
+2. Deploy the project using Shell:
 
 - **Shell**: Run `deploy.sh`.
   ```
   ./deploy.sh
   ```
 
-- **PowerShell**: Run `deploy.ps1`.
-  ```
-  ./deploy.ps1
-  ```
+3. Wait until all pods are running
 
-3. Finally, for port forwarding in Kubernetes, use the following command:
-```
-kubectl port-forward service/flasespace-service 8080:80 -n flask-app-ns
-```
-
+4. Go to 127.0.0.1:8080/books
