@@ -11,8 +11,8 @@ services:
   db:
     image: postgres:13
     environment:
-      POSTGRES_USER: user
-      POSTGRES_PASSWORD: password
+      POSTGRES_USER: useruser
+      POSTGRES_PASSWORD: passpass
       POSTGRES_DB: flaskcrud
     volumes:
       - db_data:/var/lib/postgresql/data
